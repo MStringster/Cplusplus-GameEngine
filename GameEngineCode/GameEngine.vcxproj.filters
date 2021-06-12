@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{78d4b6d6-90e5-44e6-b605-ea1890824a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChrisFiles">
+      <UniqueIdentifier>{1908b5c8-568a-497b-aee7-f6b4f899372c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChrisFiles\Header Files">
+      <UniqueIdentifier>{b0de6fd1-9bc3-42f2-ab16-dca5a08a97ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChrisFiles\Source Files">
+      <UniqueIdentifier>{302a3180-350d-4387-87f2-1b573f55b232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Header Files">
+      <UniqueIdentifier>{65d4a39a-cbab-46a5-9580-80d195b06f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Source Files">
+      <UniqueIdentifier>{a751f4cb-13e0-4fb7-807e-dff5f523d3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Header Files\Physics">
+      <UniqueIdentifier>{0cd25e6e-af8a-4959-b672-46a0ff4f49ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Header Files\Collision">
+      <UniqueIdentifier>{6a544bbd-e63f-4851-9891-3c3df8127272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Header Files\Input">
+      <UniqueIdentifier>{919fd70a-8049-491d-b574-cd3d6f9ecd8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Header Files\Render">
+      <UniqueIdentifier>{2ea26b75-1a36-4064-9faf-b4c2e9abb069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Source Files\Collision">
+      <UniqueIdentifier>{2bee7ed2-c469-4b33-9215-5ddd8a936866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Source Files\Input">
+      <UniqueIdentifier>{0d13b63d-13cb-4fcb-a972-54ca43eebb7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Source Files\Render">
+      <UniqueIdentifier>{ed4c5ad5-5a19-463e-b6f3-a803c0d9a569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Source Files\Physics">
+      <UniqueIdentifier>{272df8ae-c90a-47f4-868f-5c70103454c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gamecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2D.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="objecttypes.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myinputs.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mydrawengine.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mysoundengine.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gametimer.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="errortype.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLogger.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes.h">
+      <Filter>ChrisFiles\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossArmPhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="fishPhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BossCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundriesCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBulletCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="FishCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="PickupCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="RockCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SharkCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SquidCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerCollisionComponent.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretCollisionComp.h">
+      <Filter>Components\Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBulletPhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SharkPhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretPhysicsComp.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Components\Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Components\Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerFollowPhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleCrackPhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BubblePhysicsComponent.h">
+      <Filter>Components\Header Files\Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gamecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLogger.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gametimer.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mydrawengine.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myinputs.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mysoundengine.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2D.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wincode.cpp">
+      <Filter>ChrisFiles\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossArmPhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBulletPhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BossCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundriesCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBulletCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="FishCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="fishPhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Components\Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PickupCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Components\Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RockCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SharkCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SquidCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SharkPhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerCollisionComponent.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretPhysicsComp.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretCollisionComp.cpp">
+      <Filter>Components\Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerFollowPhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleCrackPhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BubblePhysicsComponent.cpp">
+      <Filter>Components\Source Files\Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
